@@ -19,22 +19,27 @@
 /* corpo */
 
 body {
-    background-color: #f0f4f8;
+    background-color: #f7f7f7;
+}
+
+.corzinha {
+    background-color: #f7f7f7;
+    
 }
 
 
 /* NAVBAR RESPONSIVO */
 
 a {
-    color: #fff;
-    text-decoration: none;
+ 
     transition: 0.3s;
-    color: blue;
+
 }
 
 a:hover {
     color: black;
     opacity: 0.7;
+    text-decoration: none;
 }
 
 .logo {
