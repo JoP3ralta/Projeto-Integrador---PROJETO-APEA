@@ -311,50 +311,78 @@ main {
 }
 
 /* Rodapé */
+.section-p1 {
+    padding: 40px 80px;
+}
 
 footer {
-    padding: 50px;
-    background-color: #004494;
-    color: aliceblue;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #0842AEF5;
     margin-top: 200%;
-
 }
 
-.icons {
+footer .col {
     display: flex;
-    justify-content: right;
-    gap: 20px;
-    text-align: right;
-    align-items: center;
-
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2px;
 }
 
-.text-icon {
-    align-items: center;
-    align-items: center;
-    width: 60%;
+footer .logo {
+    margin-top: -2%;
+    margin-bottom: 2%;
+    margin-left: -8%;
+    width: 20rem;
+    height: 10rem;
 }
 
-.icons img {
-    width: 4rem;
-    height: 4rem;
-
+footer h4 {
+    font-size: 15px;
+    padding-bottom: 2px;
+    color: #ffffff;
 }
 
-.icons a {
-    padding: 0
+footer p {
+    font-size: 13px;
+    margin: 2px;
+    color: #ffffff;
 }
 
-.icons img:hover {
-    transform: scale(1.1);
+footer a {
+    text-decoration: none;
+    color: #67c2ff;
+    font-size: 13px;
+    margin: 0 0 8px 0;
+    cursor: pointer;
 }
 
-.text-icon {
-    display: flex;
+footer .redes i {
+    color: #ffffff;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .redes i:hover,
+footer a:hover {
+    color: #1676ad;
+}
+
+footer .install .row img {
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+
+footer .install img {
+    margin: 10px 0 15px 0;
+    width: 20rem;
+}
+
+footer .copyright {
     text-align: center;
+    width: 100%;
 }
-
 
 
 /* responsividade do navbar */

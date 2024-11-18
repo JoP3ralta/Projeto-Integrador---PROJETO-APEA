@@ -38,6 +38,8 @@
                 <li><a href="#">DOAÇÕES</a></li>
 
             </ul>
+            <!-- <li><a href="#produtosParaLink">Produtos<span class="underline"></span></a></li>
+                      <li><a href="HTML/QuemSomos.html">Sobre<span class="underline"></span></a></li> -->
         </nav>
     </header>
     <!-- fim navbar -->
@@ -59,10 +61,10 @@
                         <img src="img/carrouselPrimeiraImg.png" class="d-block w-100" alt="..." height="600px">
                     </div>
                     <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
+                        <img src="img/carrouselPrimeiraImg.png" class="d-block w-100" alt="..." height="600px">
                     </div>
                     <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
+                        <img src="img/carrouselPrimeiraImg.png" class="d-block w-100" alt="..." height="600">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -345,17 +347,26 @@
 
         <!-- rodape -->
 
-        <footer>
-            <div class="icons">
-
-                <p class="text-icon"> 2024 Projeto Alicerces para o Espectro Autista - Todos os direitos reservados.
-                    &copy;
-                </p>
-
-                <a href="#" target="_blank"> <img src="img/instagram.png" alt="Instagram"></a>
-
-                <a href="#" target="_blank"> <img src="img/e-mail.png" alt="e-mail"></a>
-
+        <footer class="section-p1">
+            <div class="col"><img class="logo" src="img/logoApea.png" alt="LOGO DO PROJETO APEA">
+                <h4>Contato</h4>
+                <p><strong>Celular: </strong>+1 234 567 890</p>
+                <p><strong>Horários: </strong>09:00am - 05:00pm, Segunda a Sexta-feira</p>
+                <div class="redes">
+                    <h4>Siga-nos em nossas redes sociais</h4>
+                    <div class="icons"><a href="https://m.facebook.com/100088887640479/"><i
+                                class="fab fa-facebook"></i></a><a href="https://t.co/gsIjBjAl3n"><i
+                                class="fab fa-instagram"></i></a><a href="https://x.com/customwearhouse"><i
+                                class="fab fa-twitter"></i></a></div>
+                </div>
+            </div>
+            <div class="col">
+                <h4>Informações</h4><a href="sobre.html">Sobre nós</a><a href="contato.html">Contato</a>
+            </div>
+         
+            <div class="copyright">
+                <p>2024 Projeto Alicerces para o Espectro Autista - Todos os direitos reservados. ©
+</p>
             </div>
         </footer>
 
@@ -369,6 +380,20 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="/js/mobile-navbar.js"></script>
         <script src="script.js"></script>
+
+
+        <!-- Conteudo da pagina -->
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+
 </body>
 
 </html>
