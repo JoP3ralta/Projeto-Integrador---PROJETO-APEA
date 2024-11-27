@@ -163,7 +163,10 @@ body {
 
 /* parceiros */
 
-
+.container img {
+    border-radius: 50%;
+    background-color: white;
+}
 
 .partners-section {
     text-align: center;
