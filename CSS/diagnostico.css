@@ -20,6 +20,22 @@ body {
     font-weight: bolder;
 }
 
+/* Estilo para a imagem após a classe corzinha */
+#fundo01 {
+    width: 100%;
+    max-width: 100%;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    transition: transform 0.3s;
+}
+
+#fundo01:hover {
+    transform: scale(1.05);
+}
+
+
 
 /* container com informações principais*/
 
@@ -369,5 +385,11 @@ footer .copyright {
 
     .card img {
         margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    #fundo01 {
+        margin: 10px 0;
     }
 }
