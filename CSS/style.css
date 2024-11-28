@@ -11,6 +11,10 @@
 
 /* Css pai */
 
+html[scroll-behavior="smooth"] {
+    scroll-behavior: smooth;
+}
+
 
 * {
     font-family: "Open Sans", sans-serif;
